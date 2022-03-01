@@ -5,6 +5,7 @@ CMakeFiles/str.dir/string/string_.c.obj: \
  ../string/string_.c \
  ../string/string_.h
 CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj: \
+ ../string/string_.h \
  ../string/tasks/removeExtraSpaces.c \
  ../string/tasks/removeExtraSpaces.h
 CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj: \
