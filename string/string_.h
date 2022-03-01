@@ -21,7 +21,7 @@ typedef struct WordDescriptor {
     char *end; // позиция первого символа, после последнего символа слова
 } WordDescriptor;
 
-char _stringBuffer [MAX_STRING_SIZE+ 1];
+static char _stringBuffer [MAX_STRING_SIZE+ 1];
 
 // Возвращает количество символов в строке, не считая символ конца строки.
 size_t strlen_(const char *begin);

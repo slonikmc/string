@@ -10,6 +10,7 @@ add_library(str string/string_.h string/string_.c
          string/tasks/removeNonLetters.h string/tasks/removeNonLetters.c
          string/tasks/removeExtraSpaces.h string/tasks/removeExtraSpaces.c
          string/tasks/digitsToEnd.h string/tasks/digitsToEnd.c
+         string/tasks/numberTurnIntoSpaces.h string/tasks/numberTurnIntoSpaces.c
         )
 
 target_link_libraries(5e_string str)

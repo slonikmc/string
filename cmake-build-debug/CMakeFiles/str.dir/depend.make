@@ -8,6 +8,10 @@ CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj: \
  ../string/string_.h \
  ../string/tasks/digitsToEnd.c \
  ../string/tasks/digitsToEnd.h
+CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/numberTurnIntoSpaces.c \
+ ../string/tasks/numberTurnIntoSpaces.h
 CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj: \
  ../string/string_.h \
  ../string/tasks/removeExtraSpaces.c \

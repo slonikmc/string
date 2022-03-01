@@ -11,16 +11,16 @@ stdio.h
 -
 ctype.h
 -
-limits.h
+stdbool.h
 -
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.c
-digitsToEnd.h
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.c
+numberTurnIntoSpaces.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.h
 ../string_.h
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 ctype.h
 -
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.h
 

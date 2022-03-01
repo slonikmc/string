@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/str.dir/string/string_.c.obj"
   "CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj"
+  "CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.obj"
   "CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj"
   "CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj"
   "CMakeFiles/str.dir/string/test_string_.c.obj"

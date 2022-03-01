@@ -125,6 +125,12 @@
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h">
 			<Option target="str"/>
 		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.c">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.h">
+			<Option target="str"/>
+		</Unit>
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeExtraSpaces.c">
 			<Option target="str"/>
 		</Unit>

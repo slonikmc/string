@@ -213,6 +213,30 @@ string/tasks/digitsToEnd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/digitsToEnd.c.s
 .PHONY : string/tasks/digitsToEnd.c.s
 
+string/tasks/numberTurnIntoSpaces.obj: string/tasks/numberTurnIntoSpaces.c.obj
+.PHONY : string/tasks/numberTurnIntoSpaces.obj
+
+# target to build an object file
+string/tasks/numberTurnIntoSpaces.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.obj
+.PHONY : string/tasks/numberTurnIntoSpaces.c.obj
+
+string/tasks/numberTurnIntoSpaces.i: string/tasks/numberTurnIntoSpaces.c.i
+.PHONY : string/tasks/numberTurnIntoSpaces.i
+
+# target to preprocess a source file
+string/tasks/numberTurnIntoSpaces.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.i
+.PHONY : string/tasks/numberTurnIntoSpaces.c.i
+
+string/tasks/numberTurnIntoSpaces.s: string/tasks/numberTurnIntoSpaces.c.s
+.PHONY : string/tasks/numberTurnIntoSpaces.s
+
+# target to generate assembly for a file
+string/tasks/numberTurnIntoSpaces.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.s
+.PHONY : string/tasks/numberTurnIntoSpaces.c.s
+
 string/tasks/removeExtraSpaces.obj: string/tasks/removeExtraSpaces.c.obj
 .PHONY : string/tasks/removeExtraSpaces.obj
 
@@ -304,6 +328,9 @@ help:
 	@echo ... string/tasks/digitsToEnd.obj
 	@echo ... string/tasks/digitsToEnd.i
 	@echo ... string/tasks/digitsToEnd.s
+	@echo ... string/tasks/numberTurnIntoSpaces.obj
+	@echo ... string/tasks/numberTurnIntoSpaces.i
+	@echo ... string/tasks/numberTurnIntoSpaces.s
 	@echo ... string/tasks/removeExtraSpaces.obj
 	@echo ... string/tasks/removeExtraSpaces.i
 	@echo ... string/tasks/removeExtraSpaces.s
