@@ -5,6 +5,7 @@
 #include "string_.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
 size_t strlen_(const char *begin) {
     char *end = begin;
@@ -116,4 +117,12 @@ int getWord(char *beginSearch, WordDescriptor *word) {
     word->end = findSpace(word->begin);
 
     return 1;
+}
+
+bool getWordReverse(char *rbegin, char *rend, WordDescriptor *word) {
+    word->end = findNonSpaceReverse(rbegin, rend) + 1;
+    if (word->end == rend)
+        return false;
+    word->begin = findSpaceReverse(rbegin, rend) + 1;
+    return true;
 }

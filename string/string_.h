@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 #include <ctype.h>
-#include <limits.h>
+#include <stdbool.h>
 
 #define ASSERT_STRING(expected, got) assertString(expected, got, \
  __FILE__ , __FUNCTION__ , __LINE__ )
@@ -74,5 +74,8 @@ void assertString(const char *expected, char *got,
                   char const *fileName, char const *funcName, int line);
 
 int getWord(char *beginSearch, WordDescriptor *word);
+
+bool getWordReverse(char *rbegin, char *rend, WordDescriptor *word);
+
 
 #endif //INC_5E_STRING_STRING__H
