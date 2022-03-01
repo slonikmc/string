@@ -12,8 +12,26 @@ void removeNonLetters(char *s) {
     *destination = '\0';
 }
 
-void test_removeNonLetters_commonCase() {
-    char *str = "Hello123";
+static void test_removeNonLetters_commonCase() {
+    char str[] = "H e l  67  ";
     removeNonLetters(str);
-    ASSERT_STRING("Hello", str);
+    ASSERT_STRING("Hel67", str);
+}
+
+static void test_removeNonLetters_onlyGraphs() {
+    char str[] = "Hel67";
+    removeNonLetters(str);
+    ASSERT_STRING("Hel67", str);
+}
+
+static void test_removeNonLetters_onlySpaces() {
+    char str[] = "     ";
+    removeNonLetters(str);
+    ASSERT_STRING("", str);
+}
+
+void test_removeNonLetters() {
+    test_removeNonLetters_commonCase();
+    test_removeNonLetters_onlyGraphs();
+    test_removeNonLetters_onlySpaces();
 }

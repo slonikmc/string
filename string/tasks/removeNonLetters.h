@@ -7,6 +7,6 @@
 
 void removeNonLetters(char *s);
 
-void test_removeNonLetters_commonCase();
+void test_removeNonLetters();
 
 #endif //INC_5E_STRING_REMOVENONLETTERS_H

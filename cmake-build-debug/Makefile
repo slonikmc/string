@@ -189,6 +189,30 @@ string/string_.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/string_.c.s
 .PHONY : string/string_.c.s
 
+string/tasks/removeExtraSpaces.obj: string/tasks/removeExtraSpaces.c.obj
+.PHONY : string/tasks/removeExtraSpaces.obj
+
+# target to build an object file
+string/tasks/removeExtraSpaces.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj
+.PHONY : string/tasks/removeExtraSpaces.c.obj
+
+string/tasks/removeExtraSpaces.i: string/tasks/removeExtraSpaces.c.i
+.PHONY : string/tasks/removeExtraSpaces.i
+
+# target to preprocess a source file
+string/tasks/removeExtraSpaces.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.i
+.PHONY : string/tasks/removeExtraSpaces.c.i
+
+string/tasks/removeExtraSpaces.s: string/tasks/removeExtraSpaces.c.s
+.PHONY : string/tasks/removeExtraSpaces.s
+
+# target to generate assembly for a file
+string/tasks/removeExtraSpaces.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.s
+.PHONY : string/tasks/removeExtraSpaces.c.s
+
 string/tasks/removeNonLetters.obj: string/tasks/removeNonLetters.c.obj
 .PHONY : string/tasks/removeNonLetters.obj
 
@@ -253,6 +277,9 @@ help:
 	@echo ... string/string_.obj
 	@echo ... string/string_.i
 	@echo ... string/string_.s
+	@echo ... string/tasks/removeExtraSpaces.obj
+	@echo ... string/tasks/removeExtraSpaces.i
+	@echo ... string/tasks/removeExtraSpaces.s
 	@echo ... string/tasks/removeNonLetters.obj
 	@echo ... string/tasks/removeNonLetters.i
 	@echo ... string/tasks/removeNonLetters.s

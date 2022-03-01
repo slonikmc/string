@@ -104,11 +104,25 @@ CMakeFiles/str.dir/string/tasks/removeNonLetters.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/removeNonLetters.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\removeNonLetters.c" -o CMakeFiles\str.dir\string\tasks\removeNonLetters.c.s
 
+CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj: CMakeFiles/str.dir/flags.make
+CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj: ../string/tasks/removeExtraSpaces.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\str.dir\string\tasks\removeExtraSpaces.c.obj -c "C:\Users\Akelk\CLionProjects\5e string\string\tasks\removeExtraSpaces.c"
+
+CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Akelk\CLionProjects\5e string\string\tasks\removeExtraSpaces.c" > CMakeFiles\str.dir\string\tasks\removeExtraSpaces.c.i
+
+CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\removeExtraSpaces.c" -o CMakeFiles\str.dir\string\tasks\removeExtraSpaces.c.s
+
 # Object files for target str
 str_OBJECTS = \
 "CMakeFiles/str.dir/string/string_.c.obj" \
 "CMakeFiles/str.dir/string/test_string_.c.obj" \
-"CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj"
+"CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj" \
+"CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj"
 
 # External object files for target str
 str_EXTERNAL_OBJECTS =
@@ -116,9 +130,10 @@ str_EXTERNAL_OBJECTS =
 libstr.a: CMakeFiles/str.dir/string/string_.c.obj
 libstr.a: CMakeFiles/str.dir/string/test_string_.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj
+libstr.a: CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj
 libstr.a: CMakeFiles/str.dir/build.make
 libstr.a: CMakeFiles/str.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libstr.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libstr.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\str.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\str.dir\link.txt --verbose=$(VERBOSE)
 

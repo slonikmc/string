@@ -8,7 +8,7 @@ add_executable(5e_string main.c)
 add_library(str string/string_.h string/string_.c
          string/test_string_.h string/test_string_.c
          string/tasks/removeNonLetters.h string/tasks/removeNonLetters.c
-        # string/tasks/reverseWords.h
+         string/tasks/removeExtraSpaces.h string/tasks/removeExtraSpaces.c
         )
 
 target_link_libraries(5e_string str)

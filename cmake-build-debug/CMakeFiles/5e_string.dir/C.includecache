@@ -7,20 +7,8 @@
 #IncludeRegexTransform: 
 
 C:/Users/Akelk/CLionProjects/5e string/main.c
-string/string_.h
-C:/Users/Akelk/CLionProjects/5e string/string/string_.h
-string/test_string_.h
-C:/Users/Akelk/CLionProjects/5e string/string/test_string_.h
 string/tasks/removeNonLetters.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeNonLetters.h
 
-C:/Users/Akelk/CLionProjects/5e string/string/string_.h
-stdio.h
--
-ctype.h
--
-
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeNonLetters.h
-
-C:/Users/Akelk/CLionProjects/5e string/string/test_string_.h
 
