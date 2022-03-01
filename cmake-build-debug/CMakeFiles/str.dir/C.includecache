@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Akelk/CLionProjects/5e string/string/string_.h
-stdio.h
--
-ctype.h
--
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeExtraSpaces.c
+removeExtraSpaces.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeExtraSpaces.h
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeNonLetters.c
-removeNonLetters.h
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeNonLetters.h
-ctype.h
--
-../string_.h
-C:/Users/Akelk/CLionProjects/5e string/string/string_.h
-
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeNonLetters.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeExtraSpaces.h
 
