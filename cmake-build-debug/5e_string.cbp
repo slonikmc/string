@@ -119,6 +119,18 @@
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/string_.h">
 			<Option target="str"/>
 		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeNonLetters.c">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeNonLetters.h">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/test_string_.c">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/test_string_.h">
+			<Option target="str"/>
+		</Unit>
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

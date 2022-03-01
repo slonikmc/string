@@ -189,6 +189,54 @@ string/string_.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/string_.c.s
 .PHONY : string/string_.c.s
 
+string/tasks/removeNonLetters.obj: string/tasks/removeNonLetters.c.obj
+.PHONY : string/tasks/removeNonLetters.obj
+
+# target to build an object file
+string/tasks/removeNonLetters.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj
+.PHONY : string/tasks/removeNonLetters.c.obj
+
+string/tasks/removeNonLetters.i: string/tasks/removeNonLetters.c.i
+.PHONY : string/tasks/removeNonLetters.i
+
+# target to preprocess a source file
+string/tasks/removeNonLetters.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/removeNonLetters.c.i
+.PHONY : string/tasks/removeNonLetters.c.i
+
+string/tasks/removeNonLetters.s: string/tasks/removeNonLetters.c.s
+.PHONY : string/tasks/removeNonLetters.s
+
+# target to generate assembly for a file
+string/tasks/removeNonLetters.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/removeNonLetters.c.s
+.PHONY : string/tasks/removeNonLetters.c.s
+
+string/test_string_.obj: string/test_string_.c.obj
+.PHONY : string/test_string_.obj
+
+# target to build an object file
+string/test_string_.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/test_string_.c.obj
+.PHONY : string/test_string_.c.obj
+
+string/test_string_.i: string/test_string_.c.i
+.PHONY : string/test_string_.i
+
+# target to preprocess a source file
+string/test_string_.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/test_string_.c.i
+.PHONY : string/test_string_.c.i
+
+string/test_string_.s: string/test_string_.c.s
+.PHONY : string/test_string_.s
+
+# target to generate assembly for a file
+string/test_string_.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/test_string_.c.s
+.PHONY : string/test_string_.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -205,6 +253,12 @@ help:
 	@echo ... string/string_.obj
 	@echo ... string/string_.i
 	@echo ... string/string_.s
+	@echo ... string/tasks/removeNonLetters.obj
+	@echo ... string/tasks/removeNonLetters.i
+	@echo ... string/tasks/removeNonLetters.s
+	@echo ... string/test_string_.obj
+	@echo ... string/test_string_.i
+	@echo ... string/test_string_.s
 .PHONY : help
 
 
