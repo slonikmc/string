@@ -4,6 +4,10 @@
 CMakeFiles/str.dir/string/string_.c.obj: \
  ../string/string_.c \
  ../string/string_.h
+CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/digitsToEnd.c \
+ ../string/tasks/digitsToEnd.h
 CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj: \
  ../string/string_.h \
  ../string/tasks/removeExtraSpaces.c \

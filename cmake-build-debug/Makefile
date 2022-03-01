@@ -189,6 +189,30 @@ string/string_.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/string_.c.s
 .PHONY : string/string_.c.s
 
+string/tasks/digitsToEnd.obj: string/tasks/digitsToEnd.c.obj
+.PHONY : string/tasks/digitsToEnd.obj
+
+# target to build an object file
+string/tasks/digitsToEnd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj
+.PHONY : string/tasks/digitsToEnd.c.obj
+
+string/tasks/digitsToEnd.i: string/tasks/digitsToEnd.c.i
+.PHONY : string/tasks/digitsToEnd.i
+
+# target to preprocess a source file
+string/tasks/digitsToEnd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/digitsToEnd.c.i
+.PHONY : string/tasks/digitsToEnd.c.i
+
+string/tasks/digitsToEnd.s: string/tasks/digitsToEnd.c.s
+.PHONY : string/tasks/digitsToEnd.s
+
+# target to generate assembly for a file
+string/tasks/digitsToEnd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/digitsToEnd.c.s
+.PHONY : string/tasks/digitsToEnd.c.s
+
 string/tasks/removeExtraSpaces.obj: string/tasks/removeExtraSpaces.c.obj
 .PHONY : string/tasks/removeExtraSpaces.obj
 
@@ -277,6 +301,9 @@ help:
 	@echo ... string/string_.obj
 	@echo ... string/string_.i
 	@echo ... string/string_.s
+	@echo ... string/tasks/digitsToEnd.obj
+	@echo ... string/tasks/digitsToEnd.i
+	@echo ... string/tasks/digitsToEnd.s
 	@echo ... string/tasks/removeExtraSpaces.obj
 	@echo ... string/tasks/removeExtraSpaces.i
 	@echo ... string/tasks/removeExtraSpaces.s

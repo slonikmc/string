@@ -11,14 +11,16 @@ stdio.h
 -
 ctype.h
 -
-
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeExtraSpaces.c
-removeExtraSpaces.h
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeExtraSpaces.h
-ctype.h
+limits.h
 -
+
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.c
+digitsToEnd.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h
 ../string_.h
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
+ctype.h
+-
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeExtraSpaces.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h
 

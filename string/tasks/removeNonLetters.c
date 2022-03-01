@@ -30,8 +30,15 @@ static void test_removeNonLetters_onlySpaces() {
     ASSERT_STRING("", str);
 }
 
+static void test_removeNonLetters_emptyString() {
+    char str[] = "";
+    removeNonLetters(str);
+    ASSERT_STRING("", str);
+}
+
 void test_removeNonLetters() {
     test_removeNonLetters_commonCase();
     test_removeNonLetters_onlyGraphs();
     test_removeNonLetters_onlySpaces();
+    test_removeNonLetters_emptyString();
 }

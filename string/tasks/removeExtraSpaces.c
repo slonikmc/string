@@ -38,8 +38,15 @@ void test_removeExtraSpaces_onlySpaces() {
     ASSERT_STRING(" ", str);
 }
 
+void test_removeExtraSpaces_emptyString() {
+    char str[] = "";
+    removeExtraSpaces(str);
+    ASSERT_STRING("", str);
+}
+
 void test_removeExtraSpaces() {
     test_removeExtraSpaces_commonCase();
     test_removeExtraSpaces_onlyGraphs();
     test_removeExtraSpaces_onlySpaces();
+    test_removeExtraSpaces_emptyString();
 }
