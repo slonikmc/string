@@ -21,7 +21,7 @@ typedef struct WordDescriptor {
     char *end; // позиция первого символа, после последнего символа слова
 } WordDescriptor;
 
-static char _stringBuffer [MAX_STRING_SIZE+ 1];
+char _stringBuffer [MAX_STRING_SIZE+ 1];
 
 // Возвращает количество символов в строке, не считая символ конца строки.
 size_t strlen_(const char *begin);
@@ -76,6 +76,5 @@ void assertString(const char *expected, char *got,
 int getWord(char *beginSearch, WordDescriptor *word);
 
 bool getWordReverse(char *rbegin, char *rend, WordDescriptor *word);
-
 
 #endif //INC_5E_STRING_STRING__H
