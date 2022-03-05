@@ -125,6 +125,12 @@
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h">
 			<Option target="str"/>
 		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.c">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.h">
+			<Option target="str"/>
+		</Unit>
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.c">
 			<Option target="str"/>
 		</Unit>
@@ -141,6 +147,12 @@
 			<Option target="str"/>
 		</Unit>
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeNonLetters.h">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/replace.c">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/replace.h">
 			<Option target="str"/>
 		</Unit>
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/test_string_.c">

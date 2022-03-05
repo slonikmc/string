@@ -143,6 +143,32 @@ CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\numberTurnIntoSpaces.c" -o CMakeFiles\str.dir\string\tasks\numberTurnIntoSpaces.c.s
 
+CMakeFiles/str.dir/string/tasks/replace.c.obj: CMakeFiles/str.dir/flags.make
+CMakeFiles/str.dir/string/tasks/replace.c.obj: ../string/tasks/replace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/str.dir/string/tasks/replace.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\str.dir\string\tasks\replace.c.obj -c "C:\Users\Akelk\CLionProjects\5e string\string\tasks\replace.c"
+
+CMakeFiles/str.dir/string/tasks/replace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/str.dir/string/tasks/replace.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Akelk\CLionProjects\5e string\string\tasks\replace.c" > CMakeFiles\str.dir\string\tasks\replace.c.i
+
+CMakeFiles/str.dir/string/tasks/replace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/replace.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\replace.c" -o CMakeFiles\str.dir\string\tasks\replace.c.s
+
+CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj: CMakeFiles/str.dir/flags.make
+CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj: ../string/tasks/nOfPalindromeWords.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\str.dir\string\tasks\nOfPalindromeWords.c.obj -c "C:\Users\Akelk\CLionProjects\5e string\string\tasks\nOfPalindromeWords.c"
+
+CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Akelk\CLionProjects\5e string\string\tasks\nOfPalindromeWords.c" > CMakeFiles\str.dir\string\tasks\nOfPalindromeWords.c.i
+
+CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\nOfPalindromeWords.c" -o CMakeFiles\str.dir\string\tasks\nOfPalindromeWords.c.s
+
 # Object files for target str
 str_OBJECTS = \
 "CMakeFiles/str.dir/string/string_.c.obj" \
@@ -150,7 +176,9 @@ str_OBJECTS = \
 "CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj" \
 "CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj" \
 "CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj" \
-"CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.obj"
+"CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.obj" \
+"CMakeFiles/str.dir/string/tasks/replace.c.obj" \
+"CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj"
 
 # External object files for target str
 str_EXTERNAL_OBJECTS =
@@ -161,9 +189,11 @@ libstr.a: CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.obj
+libstr.a: CMakeFiles/str.dir/string/tasks/replace.c.obj
+libstr.a: CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj
 libstr.a: CMakeFiles/str.dir/build.make
 libstr.a: CMakeFiles/str.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libstr.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library libstr.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\str.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\str.dir\link.txt --verbose=$(VERBOSE)
 

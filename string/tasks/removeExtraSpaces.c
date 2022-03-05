@@ -20,10 +20,10 @@ void removeExtraSpaces(char *s) {
     *s = '\0';
 }
 
-void test_removeExtraSpaces_commonCase() {
-    char str[] = "Hello   Hello Hello   ";
+void test_removeExtraSpaces_emptyString() {
+    char str[] = "";
     removeExtraSpaces(str);
-    ASSERT_STRING("Hello Hello Hello ", str);
+    ASSERT_STRING("", str);
 }
 
 void test_removeExtraSpaces_onlyGraphs() {
@@ -38,15 +38,15 @@ void test_removeExtraSpaces_onlySpaces() {
     ASSERT_STRING(" ", str);
 }
 
-void test_removeExtraSpaces_emptyString() {
-    char str[] = "";
+void test_removeExtraSpaces_commonCase() {
+    char str[] = "Hello   Hello Hello   ";
     removeExtraSpaces(str);
-    ASSERT_STRING("", str);
+    ASSERT_STRING("Hello Hello Hello ", str);
 }
 
 void test_removeExtraSpaces() {
-    test_removeExtraSpaces_commonCase();
+    test_removeExtraSpaces_emptyString();
     test_removeExtraSpaces_onlyGraphs();
     test_removeExtraSpaces_onlySpaces();
-    test_removeExtraSpaces_emptyString();
+    test_removeExtraSpaces_commonCase();
 }

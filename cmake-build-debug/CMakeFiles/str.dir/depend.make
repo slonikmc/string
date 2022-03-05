@@ -8,6 +8,10 @@ CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj: \
  ../string/string_.h \
  ../string/tasks/digitsToEnd.c \
  ../string/tasks/digitsToEnd.h
+CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/nOfPalindromeWords.c \
+ ../string/tasks/nOfPalindromeWords.h
 CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.obj: \
  ../string/string_.h \
  ../string/tasks/numberTurnIntoSpaces.c \
@@ -20,6 +24,10 @@ CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj: \
  ../string/string_.h \
  ../string/tasks/removeNonLetters.c \
  ../string/tasks/removeNonLetters.h
+CMakeFiles/str.dir/string/tasks/replace.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/replace.c \
+ ../string/tasks/replace.h
 CMakeFiles/str.dir/string/test_string_.c.obj: \
  ../string/string_.h \
  ../string/test_string_.c \

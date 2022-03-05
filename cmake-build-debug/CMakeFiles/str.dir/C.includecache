@@ -14,13 +14,15 @@ ctype.h
 stdbool.h
 -
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.c
-numberTurnIntoSpaces.h
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.c
+nOfPalindromeWords.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.h
 ../string_.h
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
-ctype.h
+assert.h
 -
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.h
+stdio.h
+-
 

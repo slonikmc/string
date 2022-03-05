@@ -213,6 +213,30 @@ string/tasks/digitsToEnd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/digitsToEnd.c.s
 .PHONY : string/tasks/digitsToEnd.c.s
 
+string/tasks/nOfPalindromeWords.obj: string/tasks/nOfPalindromeWords.c.obj
+.PHONY : string/tasks/nOfPalindromeWords.obj
+
+# target to build an object file
+string/tasks/nOfPalindromeWords.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj
+.PHONY : string/tasks/nOfPalindromeWords.c.obj
+
+string/tasks/nOfPalindromeWords.i: string/tasks/nOfPalindromeWords.c.i
+.PHONY : string/tasks/nOfPalindromeWords.i
+
+# target to preprocess a source file
+string/tasks/nOfPalindromeWords.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.i
+.PHONY : string/tasks/nOfPalindromeWords.c.i
+
+string/tasks/nOfPalindromeWords.s: string/tasks/nOfPalindromeWords.c.s
+.PHONY : string/tasks/nOfPalindromeWords.s
+
+# target to generate assembly for a file
+string/tasks/nOfPalindromeWords.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.s
+.PHONY : string/tasks/nOfPalindromeWords.c.s
+
 string/tasks/numberTurnIntoSpaces.obj: string/tasks/numberTurnIntoSpaces.c.obj
 .PHONY : string/tasks/numberTurnIntoSpaces.obj
 
@@ -285,6 +309,30 @@ string/tasks/removeNonLetters.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/removeNonLetters.c.s
 .PHONY : string/tasks/removeNonLetters.c.s
 
+string/tasks/replace.obj: string/tasks/replace.c.obj
+.PHONY : string/tasks/replace.obj
+
+# target to build an object file
+string/tasks/replace.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/replace.c.obj
+.PHONY : string/tasks/replace.c.obj
+
+string/tasks/replace.i: string/tasks/replace.c.i
+.PHONY : string/tasks/replace.i
+
+# target to preprocess a source file
+string/tasks/replace.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/replace.c.i
+.PHONY : string/tasks/replace.c.i
+
+string/tasks/replace.s: string/tasks/replace.c.s
+.PHONY : string/tasks/replace.s
+
+# target to generate assembly for a file
+string/tasks/replace.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/replace.c.s
+.PHONY : string/tasks/replace.c.s
+
 string/test_string_.obj: string/test_string_.c.obj
 .PHONY : string/test_string_.obj
 
@@ -328,6 +376,9 @@ help:
 	@echo ... string/tasks/digitsToEnd.obj
 	@echo ... string/tasks/digitsToEnd.i
 	@echo ... string/tasks/digitsToEnd.s
+	@echo ... string/tasks/nOfPalindromeWords.obj
+	@echo ... string/tasks/nOfPalindromeWords.i
+	@echo ... string/tasks/nOfPalindromeWords.s
 	@echo ... string/tasks/numberTurnIntoSpaces.obj
 	@echo ... string/tasks/numberTurnIntoSpaces.i
 	@echo ... string/tasks/numberTurnIntoSpaces.s
@@ -337,6 +388,9 @@ help:
 	@echo ... string/tasks/removeNonLetters.obj
 	@echo ... string/tasks/removeNonLetters.i
 	@echo ... string/tasks/removeNonLetters.s
+	@echo ... string/tasks/replace.obj
+	@echo ... string/tasks/replace.i
+	@echo ... string/tasks/replace.s
 	@echo ... string/test_string_.obj
 	@echo ... string/test_string_.i
 	@echo ... string/test_string_.s

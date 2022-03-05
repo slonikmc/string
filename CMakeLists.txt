@@ -11,6 +11,8 @@ add_library(str string/string_.h string/string_.c
          string/tasks/removeExtraSpaces.h string/tasks/removeExtraSpaces.c
          string/tasks/digitsToEnd.h string/tasks/digitsToEnd.c
          string/tasks/numberTurnIntoSpaces.h string/tasks/numberTurnIntoSpaces.c
+         string/tasks/replace.h string/tasks/replace.c
+         string/tasks/nOfPalindromeWords.h string/tasks/nOfPalindromeWords.c
         )
 
 target_link_libraries(5e_string str)
