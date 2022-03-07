@@ -137,3 +137,14 @@ int areWordsEqual(WordDescriptor w1, WordDescriptor w2) {
 
     return *begin1 - *begin2;
 }
+
+void getBagOfWords(BagOfWords *bag, char *s) {
+    char *begin = s;
+    bag->size = 0;
+    WordDescriptor word;
+    while(getWord(*s, &word)) {
+        bag->words[bag->size] = word;
+        *begin = word.end;
+        bag->size++;
+    }
+}

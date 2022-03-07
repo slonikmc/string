@@ -21,7 +21,17 @@ typedef struct WordDescriptor {
     char *end; // позиция первого символа, после последнего символа слова
 } WordDescriptor;
 
+// хранит начало и конец каждого слова исходной строки
+typedef struct BagOfWords {
+    WordDescriptor words [ MAX_N_WORDS_IN_STRING ];
+    size_t size ;
+} BagOfWords ;
+
 char _stringBuffer [MAX_STRING_SIZE+ 1];
+
+BagOfWords _bag ;
+
+BagOfWords _bag2 ;
 
 // Возвращает количество символов в строке, не считая символ конца строки.
 size_t strlen_(const char *begin);
@@ -81,5 +91,8 @@ int getWord(char *beginSearch, WordDescriptor *word);
 bool getWordReverse(char *rbegin, char *rend, WordDescriptor *word);
 
 int areWordsEqual(WordDescriptor w1, WordDescriptor w2);
+
+// получает позиции начала и конца каждого слова строки
+void getBagOfWords(BagOfWords *bag, char *s);
 
 #endif //INC_5E_STRING_STRING__H
