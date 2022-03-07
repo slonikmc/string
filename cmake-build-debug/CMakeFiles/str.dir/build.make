@@ -182,6 +182,19 @@ CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\nOfPalindromeWords.c" -o CMakeFiles\str.dir\string\tasks\nOfPalindromeWords.c.s
 
+CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj: CMakeFiles/str.dir/flags.make
+CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj: ../string/tasks/alternatingWordsSentence.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\str.dir\string\tasks\alternatingWordsSentence.c.obj -c "C:\Users\Akelk\CLionProjects\5e string\string\tasks\alternatingWordsSentence.c"
+
+CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Akelk\CLionProjects\5e string\string\tasks\alternatingWordsSentence.c" > CMakeFiles\str.dir\string\tasks\alternatingWordsSentence.c.i
+
+CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\alternatingWordsSentence.c" -o CMakeFiles\str.dir\string\tasks\alternatingWordsSentence.c.s
+
 # Object files for target str
 str_OBJECTS = \
 "CMakeFiles/str.dir/string/string_.c.obj" \
@@ -192,7 +205,8 @@ str_OBJECTS = \
 "CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.obj" \
 "CMakeFiles/str.dir/string/tasks/replace.c.obj" \
 "CMakeFiles/str.dir/string/tasks/isLexicallyOrderedSentence.c.obj" \
-"CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj"
+"CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj" \
+"CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj"
 
 # External object files for target str
 str_EXTERNAL_OBJECTS =
@@ -206,9 +220,10 @@ libstr.a: CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/replace.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/isLexicallyOrderedSentence.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj
+libstr.a: CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj
 libstr.a: CMakeFiles/str.dir/build.make
 libstr.a: CMakeFiles/str.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libstr.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking C static library libstr.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\str.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\str.dir\link.txt --verbose=$(VERBOSE)
 

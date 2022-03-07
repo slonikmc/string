@@ -4,6 +4,7 @@
 #include "string/tasks/numberTurnIntoSpaces.h"
 #include "string/tasks/nOfPalindromeWords.h"
 #include "string/tasks/isLexicallyOrderedSentence.h"
+#include "string/tasks/alternatingWordsSentence.h"
 
 int main() {
     test_removeNonLetters();
@@ -12,6 +13,7 @@ int main() {
     test_numberTurnIntoSpaces();
     test_nOfPalindromeWords();
     test_isLexicallyOrderedSentence();
+    test_alternatingWordsSentence();
 
     return 0;
 }

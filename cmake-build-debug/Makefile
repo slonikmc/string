@@ -189,6 +189,30 @@ string/string_.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/string_.c.s
 .PHONY : string/string_.c.s
 
+string/tasks/alternatingWordsSentence.obj: string/tasks/alternatingWordsSentence.c.obj
+.PHONY : string/tasks/alternatingWordsSentence.obj
+
+# target to build an object file
+string/tasks/alternatingWordsSentence.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj
+.PHONY : string/tasks/alternatingWordsSentence.c.obj
+
+string/tasks/alternatingWordsSentence.i: string/tasks/alternatingWordsSentence.c.i
+.PHONY : string/tasks/alternatingWordsSentence.i
+
+# target to preprocess a source file
+string/tasks/alternatingWordsSentence.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.i
+.PHONY : string/tasks/alternatingWordsSentence.c.i
+
+string/tasks/alternatingWordsSentence.s: string/tasks/alternatingWordsSentence.c.s
+.PHONY : string/tasks/alternatingWordsSentence.s
+
+# target to generate assembly for a file
+string/tasks/alternatingWordsSentence.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.s
+.PHONY : string/tasks/alternatingWordsSentence.c.s
+
 string/tasks/digitsToEnd.obj: string/tasks/digitsToEnd.c.obj
 .PHONY : string/tasks/digitsToEnd.obj
 
@@ -397,6 +421,9 @@ help:
 	@echo ... string/string_.obj
 	@echo ... string/string_.i
 	@echo ... string/string_.s
+	@echo ... string/tasks/alternatingWordsSentence.obj
+	@echo ... string/tasks/alternatingWordsSentence.i
+	@echo ... string/tasks/alternatingWordsSentence.s
 	@echo ... string/tasks/digitsToEnd.obj
 	@echo ... string/tasks/digitsToEnd.i
 	@echo ... string/tasks/digitsToEnd.s

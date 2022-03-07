@@ -4,6 +4,10 @@
 CMakeFiles/str.dir/string/string_.c.obj: \
  ../string/string_.c \
  ../string/string_.h
+CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/alternatingWordsSentence.c \
+ ../string/tasks/alternatingWordsSentence.h
 CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj: \
  ../string/string_.h \
  ../string/tasks/digitsToEnd.c \
