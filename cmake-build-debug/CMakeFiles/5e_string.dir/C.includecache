@@ -27,6 +27,8 @@ string/tasks/getWordBeforeFirstWordWithA.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/getWordBeforeFirstWordWithA.h
 string/tasks/getLastInString1FromString2.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastInString1FromString2.h
+string/tasks/isEqualWordsInTwoStrings.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/isEqualWordsInTwoStrings.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 stdio.h
@@ -47,6 +49,10 @@ C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastInString1FromString2.
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/getWordBeforeFirstWordWithA.h
+
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/isEqualWordsInTwoStrings.h
+../string_.h
+C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.h
 ../string_.h

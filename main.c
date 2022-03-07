@@ -8,6 +8,7 @@
 #include "string/tasks/reverseString.h"
 #include "string/tasks/getWordBeforeFirstWordWithA.h"
 #include "string/tasks/getLastInString1FromString2.h"
+#include "string/tasks/isEqualWordsInTwoStrings.h"
 
 int main() {
     test_removeNonLetters();
@@ -20,6 +21,7 @@ int main() {
     //test_reverseString();
     testAll_getWordBeforeFirstWordWithA();
     test_getLastInString1FromString2();
+    test_isEqualWordsInTwoStrings();
 
     return 0;
 }

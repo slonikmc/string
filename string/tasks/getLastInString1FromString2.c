@@ -10,7 +10,7 @@ WordDescriptor getLastInString1FromString2(char *s1, char *s2) {
     WordDescriptor word;
     for (int i = _bag.size - 1; i >= 0; i--)
         for (int j = _bag2.size - 1; j >= 0; j--)
-            if (areWordsEqual(_bag.words[i], _bag2.words[j])) {
+            if (areWordsEqual(_bag.words[i], _bag2.words[j]) == 0) {
                 word = _bag.words[i];
                 return word;
             }

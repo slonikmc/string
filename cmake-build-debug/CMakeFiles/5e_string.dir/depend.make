@@ -8,6 +8,7 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../string/tasks/digitsToEnd.h \
  ../string/tasks/getLastInString1FromString2.h \
  ../string/tasks/getWordBeforeFirstWordWithA.h \
+ ../string/tasks/isEqualWordsInTwoStrings.h \
  ../string/tasks/isLexicallyOrderedSentence.h \
  ../string/tasks/nOfPalindromeWords.h \
  ../string/tasks/numberTurnIntoSpaces.h \

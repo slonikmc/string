@@ -143,6 +143,12 @@
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/getWordBeforeFirstWordWithA.h">
 			<Option target="str"/>
 		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/isEqualWordsInTwoStrings.c">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/isEqualWordsInTwoStrings.h">
+			<Option target="str"/>
+		</Unit>
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.c">
 			<Option target="str"/>
 		</Unit>
