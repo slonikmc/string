@@ -95,4 +95,6 @@ int areWordsEqual(WordDescriptor w1, WordDescriptor w2);
 // получает позиции начала и конца каждого слова строки
 void getBagOfWords(BagOfWords *bag, char *s);
 
+void wordDescriptorToString(WordDescriptor word, char *destination);
+
 #endif //INC_5E_STRING_STRING__H

@@ -17,6 +17,7 @@ add_library(str string/string_.h string/string_.c
          string/tasks/alternatingWordsSentence.h string/tasks/alternatingWordsSentence.c       #task 9
          string/tasks/reverseString.h string/tasks/reverseString.c                             #task 10 --
          string/tasks/getWordBeforeFirstWordWithA.h string/tasks/getWordBeforeFirstWordWithA.c #task 11
+         string/tasks/getLastInString1FromString2.h string/tasks/getLastInString1FromString2.c #task 12
         )
 
 target_link_libraries(5e_string str)

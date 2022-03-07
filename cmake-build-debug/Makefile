@@ -237,6 +237,30 @@ string/tasks/digitsToEnd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/digitsToEnd.c.s
 .PHONY : string/tasks/digitsToEnd.c.s
 
+string/tasks/getLastInString1FromString2.obj: string/tasks/getLastInString1FromString2.c.obj
+.PHONY : string/tasks/getLastInString1FromString2.obj
+
+# target to build an object file
+string/tasks/getLastInString1FromString2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.obj
+.PHONY : string/tasks/getLastInString1FromString2.c.obj
+
+string/tasks/getLastInString1FromString2.i: string/tasks/getLastInString1FromString2.c.i
+.PHONY : string/tasks/getLastInString1FromString2.i
+
+# target to preprocess a source file
+string/tasks/getLastInString1FromString2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.i
+.PHONY : string/tasks/getLastInString1FromString2.c.i
+
+string/tasks/getLastInString1FromString2.s: string/tasks/getLastInString1FromString2.c.s
+.PHONY : string/tasks/getLastInString1FromString2.s
+
+# target to generate assembly for a file
+string/tasks/getLastInString1FromString2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.s
+.PHONY : string/tasks/getLastInString1FromString2.c.s
+
 string/tasks/getWordBeforeFirstWordWithA.obj: string/tasks/getWordBeforeFirstWordWithA.c.obj
 .PHONY : string/tasks/getWordBeforeFirstWordWithA.obj
 
@@ -475,6 +499,9 @@ help:
 	@echo ... string/tasks/digitsToEnd.obj
 	@echo ... string/tasks/digitsToEnd.i
 	@echo ... string/tasks/digitsToEnd.s
+	@echo ... string/tasks/getLastInString1FromString2.obj
+	@echo ... string/tasks/getLastInString1FromString2.i
+	@echo ... string/tasks/getLastInString1FromString2.s
 	@echo ... string/tasks/getWordBeforeFirstWordWithA.obj
 	@echo ... string/tasks/getWordBeforeFirstWordWithA.i
 	@echo ... string/tasks/getWordBeforeFirstWordWithA.s

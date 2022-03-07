@@ -12,6 +12,10 @@ CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj: \
  ../string/string_.h \
  ../string/tasks/digitsToEnd.c \
  ../string/tasks/digitsToEnd.h
+CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/getLastInString1FromString2.c \
+ ../string/tasks/getLastInString1FromString2.h
 CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.obj: \
  ../string/string_.h \
  ../string/tasks/getWordBeforeFirstWordWithA.c \

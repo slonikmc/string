@@ -7,6 +7,7 @@
 #include "string/tasks/alternatingWordsSentence.h"
 #include "string/tasks/reverseString.h"
 #include "string/tasks/getWordBeforeFirstWordWithA.h"
+#include "string/tasks/getLastInString1FromString2.h"
 
 int main() {
     test_removeNonLetters();
@@ -18,6 +19,7 @@ int main() {
     test_alternatingWordsSentence();
     //test_reverseString();
     testAll_getWordBeforeFirstWordWithA();
+    test_getLastInString1FromString2();
 
     return 0;
 }

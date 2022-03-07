@@ -142,9 +142,14 @@ void getBagOfWords(BagOfWords *bag, char *s) {
     char *begin = s;
     bag->size = 0;
     WordDescriptor word;
-    while(getWord(*s, &word)) {
+    while(getWord(begin, &word)) {
         bag->words[bag->size] = word;
-        *begin = word.end;
+        begin = word.end;
         bag->size++;
     }
+}
+
+void wordDescriptorToString(WordDescriptor word, char *destination) {
+    destination = copy(word.begin, word.end, destination);
+    *destination = '\0';
 }
