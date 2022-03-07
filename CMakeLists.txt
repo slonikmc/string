@@ -15,6 +15,7 @@ add_library(str string/string_.h string/string_.c
          string/tasks/isLexicallyOrderedSentence.h string/tasks/isLexicallyOrderedSentence.c   #task 6
          string/tasks/nOfPalindromeWords.h string/tasks/nOfPalindromeWords.c                   #task 8
          string/tasks/alternatingWordsSentence.h string/tasks/alternatingWordsSentence.c       #task 9
+         string/tasks/reverseString.h string/tasks/reverseString.c                             #task 10
         )
 
 target_link_libraries(5e_string str)

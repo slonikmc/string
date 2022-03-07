@@ -167,6 +167,12 @@
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/replace.h">
 			<Option target="str"/>
 		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/reverseString.c">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/reverseString.h">
+			<Option target="str"/>
+		</Unit>
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/test_string_.c">
 			<Option target="str"/>
 		</Unit>

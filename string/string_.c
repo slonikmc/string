@@ -61,7 +61,7 @@ int strcmp(const char *lhs, const char *rhs) {
 
 char *copy(const char *beginSource, const char *endSource, char *beginDestination) {
     long long size = endSource - beginSource;
-    memcpy(beginDestination, beginSource, sizeof(char) * size);
+    memcpy(beginDestination, beginSource, size);
 
     return beginDestination + size;
 }

@@ -5,6 +5,7 @@
 #include "string/tasks/nOfPalindromeWords.h"
 #include "string/tasks/isLexicallyOrderedSentence.h"
 #include "string/tasks/alternatingWordsSentence.h"
+#include "string/tasks/reverseString.h"
 
 int main() {
     test_removeNonLetters();
@@ -14,6 +15,7 @@ int main() {
     test_nOfPalindromeWords();
     test_isLexicallyOrderedSentence();
     test_alternatingWordsSentence();
+    test_reverseString();
 
     return 0;
 }

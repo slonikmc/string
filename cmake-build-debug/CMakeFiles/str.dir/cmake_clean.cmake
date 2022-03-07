@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj"
   "CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj"
   "CMakeFiles/str.dir/string/tasks/replace.c.obj"
+  "CMakeFiles/str.dir/string/tasks/reverseString.c.obj"
   "CMakeFiles/str.dir/string/test_string_.c.obj"
   "libstr.a"
   "libstr.pdb"

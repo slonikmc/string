@@ -381,6 +381,30 @@ string/tasks/replace.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/replace.c.s
 .PHONY : string/tasks/replace.c.s
 
+string/tasks/reverseString.obj: string/tasks/reverseString.c.obj
+.PHONY : string/tasks/reverseString.obj
+
+# target to build an object file
+string/tasks/reverseString.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/reverseString.c.obj
+.PHONY : string/tasks/reverseString.c.obj
+
+string/tasks/reverseString.i: string/tasks/reverseString.c.i
+.PHONY : string/tasks/reverseString.i
+
+# target to preprocess a source file
+string/tasks/reverseString.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/reverseString.c.i
+.PHONY : string/tasks/reverseString.c.i
+
+string/tasks/reverseString.s: string/tasks/reverseString.c.s
+.PHONY : string/tasks/reverseString.s
+
+# target to generate assembly for a file
+string/tasks/reverseString.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/reverseString.c.s
+.PHONY : string/tasks/reverseString.c.s
+
 string/test_string_.obj: string/test_string_.c.obj
 .PHONY : string/test_string_.obj
 
@@ -445,6 +469,9 @@ help:
 	@echo ... string/tasks/replace.obj
 	@echo ... string/tasks/replace.i
 	@echo ... string/tasks/replace.s
+	@echo ... string/tasks/reverseString.obj
+	@echo ... string/tasks/reverseString.i
+	@echo ... string/tasks/reverseString.s
 	@echo ... string/test_string_.obj
 	@echo ... string/test_string_.i
 	@echo ... string/test_string_.s
