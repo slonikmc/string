@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Akelk/CLionProjects/5e string/string/string_.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/string_.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj"
+  "C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/isLexicallyOrderedSentence.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeExtraSpaces.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/removeExtraSpaces.c.obj"

@@ -17,8 +17,22 @@ string/tasks/numberTurnIntoSpaces.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.h
 string/tasks/nOfPalindromeWords.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.h
+string/tasks/isLexicallyOrderedSentence.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.h
+
+C:/Users/Akelk/CLionProjects/5e string/string/string_.h
+stdio.h
+-
+ctype.h
+-
+stdbool.h
+-
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h
+
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.h
+../string_.h
+C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.h
 stdio.h

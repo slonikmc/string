@@ -73,8 +73,13 @@ char *getEndOfString(char *begin);
 void assertString(const char *expected, char *got,
                   char const *fileName, char const *funcName, int line);
 
+// Вернёт значение 0, если слово не было считано, в противном
+// случае будет возвращено значение 1 и в переменную word типа WordDescriptor
+// будут записаны позиции начала слова, и первого символа после конца слова
 int getWord(char *beginSearch, WordDescriptor *word);
 
 bool getWordReverse(char *rbegin, char *rend, WordDescriptor *word);
+
+int areWordsEqual(WordDescriptor w1, WordDescriptor w2);
 
 #endif //INC_5E_STRING_STRING__H

@@ -3,7 +3,9 @@
 
 CMakeFiles/5e_string.dir/main.c.obj: \
  ../main.c \
+ ../string/string_.h \
  ../string/tasks/digitsToEnd.h \
+ ../string/tasks/isLexicallyOrderedSentence.h \
  ../string/tasks/nOfPalindromeWords.h \
  ../string/tasks/numberTurnIntoSpaces.h \
  ../string/tasks/removeExtraSpaces.h \

@@ -14,15 +14,13 @@ ctype.h
 stdbool.h
 -
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.c
-nOfPalindromeWords.h
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.c
+isLexicallyOrderedSentence.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.h
+assert.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/assert.h
+
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.h
 ../string_.h
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
-assert.h
--
-
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.h
-stdio.h
--
 

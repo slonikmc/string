@@ -125,6 +125,12 @@
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h">
 			<Option target="str"/>
 		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.c">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.h">
+			<Option target="str"/>
+		</Unit>
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.c">
 			<Option target="str"/>
 		</Unit>

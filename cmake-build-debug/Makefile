@@ -213,6 +213,30 @@ string/tasks/digitsToEnd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/digitsToEnd.c.s
 .PHONY : string/tasks/digitsToEnd.c.s
 
+string/tasks/isLexicallyOrderedSentence.obj: string/tasks/isLexicallyOrderedSentence.c.obj
+.PHONY : string/tasks/isLexicallyOrderedSentence.obj
+
+# target to build an object file
+string/tasks/isLexicallyOrderedSentence.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/isLexicallyOrderedSentence.c.obj
+.PHONY : string/tasks/isLexicallyOrderedSentence.c.obj
+
+string/tasks/isLexicallyOrderedSentence.i: string/tasks/isLexicallyOrderedSentence.c.i
+.PHONY : string/tasks/isLexicallyOrderedSentence.i
+
+# target to preprocess a source file
+string/tasks/isLexicallyOrderedSentence.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/isLexicallyOrderedSentence.c.i
+.PHONY : string/tasks/isLexicallyOrderedSentence.c.i
+
+string/tasks/isLexicallyOrderedSentence.s: string/tasks/isLexicallyOrderedSentence.c.s
+.PHONY : string/tasks/isLexicallyOrderedSentence.s
+
+# target to generate assembly for a file
+string/tasks/isLexicallyOrderedSentence.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/isLexicallyOrderedSentence.c.s
+.PHONY : string/tasks/isLexicallyOrderedSentence.c.s
+
 string/tasks/nOfPalindromeWords.obj: string/tasks/nOfPalindromeWords.c.obj
 .PHONY : string/tasks/nOfPalindromeWords.obj
 
@@ -376,6 +400,9 @@ help:
 	@echo ... string/tasks/digitsToEnd.obj
 	@echo ... string/tasks/digitsToEnd.i
 	@echo ... string/tasks/digitsToEnd.s
+	@echo ... string/tasks/isLexicallyOrderedSentence.obj
+	@echo ... string/tasks/isLexicallyOrderedSentence.i
+	@echo ... string/tasks/isLexicallyOrderedSentence.s
 	@echo ... string/tasks/nOfPalindromeWords.obj
 	@echo ... string/tasks/nOfPalindromeWords.i
 	@echo ... string/tasks/nOfPalindromeWords.s
