@@ -23,6 +23,8 @@ string/tasks/alternatingWordsSentence.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/alternatingWordsSentence.h
 string/tasks/reverseString.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/reverseString.h
+string/tasks/getWordBeforeFirstWordWithA.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/getWordBeforeFirstWordWithA.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 stdio.h
@@ -37,6 +39,8 @@ C:/Users/Akelk/CLionProjects/5e string/string/tasks/alternatingWordsSentence.h
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h
+
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/getWordBeforeFirstWordWithA.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.h
 ../string_.h

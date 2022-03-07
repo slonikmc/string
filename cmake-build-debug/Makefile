@@ -237,6 +237,30 @@ string/tasks/digitsToEnd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/digitsToEnd.c.s
 .PHONY : string/tasks/digitsToEnd.c.s
 
+string/tasks/getWordBeforeFirstWordWithA.obj: string/tasks/getWordBeforeFirstWordWithA.c.obj
+.PHONY : string/tasks/getWordBeforeFirstWordWithA.obj
+
+# target to build an object file
+string/tasks/getWordBeforeFirstWordWithA.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.obj
+.PHONY : string/tasks/getWordBeforeFirstWordWithA.c.obj
+
+string/tasks/getWordBeforeFirstWordWithA.i: string/tasks/getWordBeforeFirstWordWithA.c.i
+.PHONY : string/tasks/getWordBeforeFirstWordWithA.i
+
+# target to preprocess a source file
+string/tasks/getWordBeforeFirstWordWithA.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.i
+.PHONY : string/tasks/getWordBeforeFirstWordWithA.c.i
+
+string/tasks/getWordBeforeFirstWordWithA.s: string/tasks/getWordBeforeFirstWordWithA.c.s
+.PHONY : string/tasks/getWordBeforeFirstWordWithA.s
+
+# target to generate assembly for a file
+string/tasks/getWordBeforeFirstWordWithA.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.s
+.PHONY : string/tasks/getWordBeforeFirstWordWithA.c.s
+
 string/tasks/isLexicallyOrderedSentence.obj: string/tasks/isLexicallyOrderedSentence.c.obj
 .PHONY : string/tasks/isLexicallyOrderedSentence.obj
 
@@ -451,6 +475,9 @@ help:
 	@echo ... string/tasks/digitsToEnd.obj
 	@echo ... string/tasks/digitsToEnd.i
 	@echo ... string/tasks/digitsToEnd.s
+	@echo ... string/tasks/getWordBeforeFirstWordWithA.obj
+	@echo ... string/tasks/getWordBeforeFirstWordWithA.i
+	@echo ... string/tasks/getWordBeforeFirstWordWithA.s
 	@echo ... string/tasks/isLexicallyOrderedSentence.obj
 	@echo ... string/tasks/isLexicallyOrderedSentence.i
 	@echo ... string/tasks/isLexicallyOrderedSentence.s

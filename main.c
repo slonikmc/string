@@ -6,6 +6,7 @@
 #include "string/tasks/isLexicallyOrderedSentence.h"
 #include "string/tasks/alternatingWordsSentence.h"
 #include "string/tasks/reverseString.h"
+#include "string/tasks/getWordBeforeFirstWordWithA.h"
 
 int main() {
     test_removeNonLetters();
@@ -15,7 +16,8 @@ int main() {
     test_nOfPalindromeWords();
     test_isLexicallyOrderedSentence();
     test_alternatingWordsSentence();
-    test_reverseString();
+    //test_reverseString();
+    testAll_getWordBeforeFirstWordWithA();
 
     return 0;
 }

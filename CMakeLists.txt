@@ -11,11 +11,12 @@ add_library(str string/string_.h string/string_.c
          string/tasks/removeExtraSpaces.h string/tasks/removeExtraSpaces.c                     #task 2
          string/tasks/digitsToEnd.h string/tasks/digitsToEnd.c                                 #task 3
          string/tasks/numberTurnIntoSpaces.h string/tasks/numberTurnIntoSpaces.c               #task 4
-         string/tasks/replace.h string/tasks/replace.c                                         #task 5
+         string/tasks/replace.h string/tasks/replace.c                                         #task 5 --
          string/tasks/isLexicallyOrderedSentence.h string/tasks/isLexicallyOrderedSentence.c   #task 6
          string/tasks/nOfPalindromeWords.h string/tasks/nOfPalindromeWords.c                   #task 8
          string/tasks/alternatingWordsSentence.h string/tasks/alternatingWordsSentence.c       #task 9
-         string/tasks/reverseString.h string/tasks/reverseString.c                             #task 10
+         string/tasks/reverseString.h string/tasks/reverseString.c                             #task 10 --
+         string/tasks/getWordBeforeFirstWordWithA.h string/tasks/getWordBeforeFirstWordWithA.c #task 11
         )
 
 target_link_libraries(5e_string str)
