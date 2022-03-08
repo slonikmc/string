@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Akelk/CLionProjects/5e string/string/string_.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/string_.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/alternatingWordsSentence.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj"
+  "C:/Users/Akelk/CLionProjects/5e string/string/tasks/deletePalindromeWords.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/deletePalindromeWords.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastInString1FromString2.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastWordFromS1EqualS2.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.obj"

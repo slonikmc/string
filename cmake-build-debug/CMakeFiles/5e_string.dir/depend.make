@@ -5,6 +5,7 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../main.c \
  ../string/string_.h \
  ../string/tasks/alternatingWordsSentence.h \
+ ../string/tasks/deletePalindromeWords.h \
  ../string/tasks/digitsToEnd.h \
  ../string/tasks/getLastInString1FromString2.h \
  ../string/tasks/getLastWordFromS1EqualS2.h \

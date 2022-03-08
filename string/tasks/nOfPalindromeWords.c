@@ -6,7 +6,7 @@
 #include "../string_.h"
 #include <assert.h>
 
-bool isPalindrome(char *begin, char *end) {
+bool isPalindrome_(char *begin, char *end) {
     if (begin != end) {
         end--;
         while (begin < end) {
@@ -17,6 +17,7 @@ bool isPalindrome(char *begin, char *end) {
         }
         return true;
     }
+
     return false;
 }
 
@@ -28,7 +29,7 @@ size_t nOfPalindromeWords(char *s) {
     char *iComma = find(begin, end, ',');
     while (*begin != *end) {
         begin = findNonSpace(begin);
-        nPalindromes += isPalindrome(begin, iComma);
+        nPalindromes += isPalindrome_(begin, iComma);
         begin = iComma + 1;
         iComma = find(begin, end, ',');
     }

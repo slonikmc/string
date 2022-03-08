@@ -35,6 +35,8 @@ string/tasks/getStringWithoutLastWord.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/getStringWithoutLastWord.h
 string/tasks/getLastWordFromS1EqualS2.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastWordFromS1EqualS2.h
+string/tasks/deletePalindromeWords.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/deletePalindromeWords.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 stdio.h
@@ -45,6 +47,10 @@ stdbool.h
 -
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/alternatingWordsSentence.h
+../string_.h
+C:/Users/Akelk/CLionProjects/5e string/string/string_.h
+
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/deletePalindromeWords.h
 ../string_.h
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 

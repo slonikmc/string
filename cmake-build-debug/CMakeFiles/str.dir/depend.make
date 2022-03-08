@@ -8,6 +8,10 @@ CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj: \
  ../string/string_.h \
  ../string/tasks/alternatingWordsSentence.c \
  ../string/tasks/alternatingWordsSentence.h
+CMakeFiles/str.dir/string/tasks/deletePalindromeWords.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/deletePalindromeWords.c \
+ ../string/tasks/deletePalindromeWords.h
 CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj: \
  ../string/string_.h \
  ../string/tasks/digitsToEnd.c \

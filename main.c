@@ -12,6 +12,7 @@
 #include "string/tasks/wordsMadeOfIdenticalLetters.h"
 #include "string/tasks/getStringWithoutLastWord.h"
 #include "string/tasks/getLastWordFromS1EqualS2.h"
+#include "string/tasks/deletePalindromeWords.h"
 
 int main() {
     test_removeNonLetters();
@@ -28,6 +29,7 @@ int main() {
     test_wordsMadeOfIdenticalLetters();
     test_getStringWithoutLastWord();
     test_getLastWordFromS1EqualS2();
+    test_deletePalindromeWords();
 
     return 0;
 }

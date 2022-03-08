@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/str.dir/string/string_.c.obj"
   "CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj"
+  "CMakeFiles/str.dir/string/tasks/deletePalindromeWords.c.obj"
   "CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj"
   "CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.obj"
   "CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.obj"

@@ -213,6 +213,30 @@ string/tasks/alternatingWordsSentence.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.s
 .PHONY : string/tasks/alternatingWordsSentence.c.s
 
+string/tasks/deletePalindromeWords.obj: string/tasks/deletePalindromeWords.c.obj
+.PHONY : string/tasks/deletePalindromeWords.obj
+
+# target to build an object file
+string/tasks/deletePalindromeWords.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/deletePalindromeWords.c.obj
+.PHONY : string/tasks/deletePalindromeWords.c.obj
+
+string/tasks/deletePalindromeWords.i: string/tasks/deletePalindromeWords.c.i
+.PHONY : string/tasks/deletePalindromeWords.i
+
+# target to preprocess a source file
+string/tasks/deletePalindromeWords.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/deletePalindromeWords.c.i
+.PHONY : string/tasks/deletePalindromeWords.c.i
+
+string/tasks/deletePalindromeWords.s: string/tasks/deletePalindromeWords.c.s
+.PHONY : string/tasks/deletePalindromeWords.s
+
+# target to generate assembly for a file
+string/tasks/deletePalindromeWords.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/deletePalindromeWords.c.s
+.PHONY : string/tasks/deletePalindromeWords.c.s
+
 string/tasks/digitsToEnd.obj: string/tasks/digitsToEnd.c.obj
 .PHONY : string/tasks/digitsToEnd.obj
 
@@ -592,6 +616,9 @@ help:
 	@echo ... string/tasks/alternatingWordsSentence.obj
 	@echo ... string/tasks/alternatingWordsSentence.i
 	@echo ... string/tasks/alternatingWordsSentence.s
+	@echo ... string/tasks/deletePalindromeWords.obj
+	@echo ... string/tasks/deletePalindromeWords.i
+	@echo ... string/tasks/deletePalindromeWords.s
 	@echo ... string/tasks/digitsToEnd.obj
 	@echo ... string/tasks/digitsToEnd.i
 	@echo ... string/tasks/digitsToEnd.s
