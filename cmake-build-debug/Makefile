@@ -501,6 +501,30 @@ string/tasks/numberTurnIntoSpaces.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/numberTurnIntoSpaces.c.s
 .PHONY : string/tasks/numberTurnIntoSpaces.c.s
 
+string/tasks/printReverseWords.obj: string/tasks/printReverseWords.c.obj
+.PHONY : string/tasks/printReverseWords.obj
+
+# target to build an object file
+string/tasks/printReverseWords.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/printReverseWords.c.obj
+.PHONY : string/tasks/printReverseWords.c.obj
+
+string/tasks/printReverseWords.i: string/tasks/printReverseWords.c.i
+.PHONY : string/tasks/printReverseWords.i
+
+# target to preprocess a source file
+string/tasks/printReverseWords.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/printReverseWords.c.i
+.PHONY : string/tasks/printReverseWords.c.i
+
+string/tasks/printReverseWords.s: string/tasks/printReverseWords.c.s
+.PHONY : string/tasks/printReverseWords.s
+
+# target to generate assembly for a file
+string/tasks/printReverseWords.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/printReverseWords.c.s
+.PHONY : string/tasks/printReverseWords.c.s
+
 string/tasks/removeExtraSpaces.obj: string/tasks/removeExtraSpaces.c.obj
 .PHONY : string/tasks/removeExtraSpaces.obj
 
@@ -700,6 +724,9 @@ help:
 	@echo ... string/tasks/numberTurnIntoSpaces.obj
 	@echo ... string/tasks/numberTurnIntoSpaces.i
 	@echo ... string/tasks/numberTurnIntoSpaces.s
+	@echo ... string/tasks/printReverseWords.obj
+	@echo ... string/tasks/printReverseWords.i
+	@echo ... string/tasks/printReverseWords.s
 	@echo ... string/tasks/removeExtraSpaces.obj
 	@echo ... string/tasks/removeExtraSpaces.i
 	@echo ... string/tasks/removeExtraSpaces.s

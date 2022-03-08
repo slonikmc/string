@@ -19,6 +19,8 @@ string/tasks/replace.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/replace.h
 string/tasks/nOfPalindromeWords.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.h
+string/tasks/printReverseWords.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/printReverseWords.h
 string/tasks/isLexicallyOrderedSentence.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/isLexicallyOrderedSentence.h
 string/tasks/alternatingWordsSentence.h
@@ -97,6 +99,8 @@ stdio.h
 -
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.h
+
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/printReverseWords.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeExtraSpaces.h
 

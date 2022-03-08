@@ -5,20 +5,6 @@
 #include "replace.h"
 #include "../string_.h"
 
-bool compareWords(WordDescriptor word1, WordDescriptor word2) {
-    char *copyWord1 = word1.begin;
-    char *copyWord2 = word2.begin;
-
-    while (*copyWord1 < word1.end) {
-        if (*copyWord1 != *copyWord2)
-            return false;
-        copyWord1++;
-        copyWord2++;
-    }
-
-    return true;
-}
-
 void replace(char *source, char *w1, char *w2) {
     size_t w1Size = strlen_(w1);
     size_t w2Size = strlen_(w2);

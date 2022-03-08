@@ -4,6 +4,7 @@
 #include "string/tasks/numberTurnIntoSpaces.h"
 #include "string/tasks/replace.h"
 #include "string/tasks/nOfPalindromeWords.h"
+#include "string/tasks/printReverseWords.h"
 #include "string/tasks/isLexicallyOrderedSentence.h"
 #include "string/tasks/alternatingWordsSentence.h"
 #include "string/tasks/reverseString.h"
@@ -36,6 +37,7 @@ int main() {
     test_deletePalindromeWords();
     test_addLastWordsS2ToS1();
     test_isAllAlphasOfWordInString();
+    test_printWordsReverse();
 
     return 0;
 }

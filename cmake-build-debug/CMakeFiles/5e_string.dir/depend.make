@@ -17,6 +17,7 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../string/tasks/isLexicallyOrderedSentence.h \
  ../string/tasks/nOfPalindromeWords.h \
  ../string/tasks/numberTurnIntoSpaces.h \
+ ../string/tasks/printReverseWords.h \
  ../string/tasks/removeExtraSpaces.h \
  ../string/tasks/removeNonLetters.h \
  ../string/tasks/replace.h \
