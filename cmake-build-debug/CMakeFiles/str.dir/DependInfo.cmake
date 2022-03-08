@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeNonLetters.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/removeNonLetters.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/replace.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/replace.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/reverseString.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/reverseString.c.obj"
+  "C:/Users/Akelk/CLionProjects/5e string/string/tasks/wordsMadeOfIdenticalLetters.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/wordsMadeOfIdenticalLetters.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/test_string_.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/test_string_.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

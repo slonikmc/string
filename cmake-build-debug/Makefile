@@ -477,6 +477,30 @@ string/tasks/reverseString.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/reverseString.c.s
 .PHONY : string/tasks/reverseString.c.s
 
+string/tasks/wordsMadeOfIdenticalLetters.obj: string/tasks/wordsMadeOfIdenticalLetters.c.obj
+.PHONY : string/tasks/wordsMadeOfIdenticalLetters.obj
+
+# target to build an object file
+string/tasks/wordsMadeOfIdenticalLetters.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/wordsMadeOfIdenticalLetters.c.obj
+.PHONY : string/tasks/wordsMadeOfIdenticalLetters.c.obj
+
+string/tasks/wordsMadeOfIdenticalLetters.i: string/tasks/wordsMadeOfIdenticalLetters.c.i
+.PHONY : string/tasks/wordsMadeOfIdenticalLetters.i
+
+# target to preprocess a source file
+string/tasks/wordsMadeOfIdenticalLetters.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/wordsMadeOfIdenticalLetters.c.i
+.PHONY : string/tasks/wordsMadeOfIdenticalLetters.c.i
+
+string/tasks/wordsMadeOfIdenticalLetters.s: string/tasks/wordsMadeOfIdenticalLetters.c.s
+.PHONY : string/tasks/wordsMadeOfIdenticalLetters.s
+
+# target to generate assembly for a file
+string/tasks/wordsMadeOfIdenticalLetters.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/wordsMadeOfIdenticalLetters.c.s
+.PHONY : string/tasks/wordsMadeOfIdenticalLetters.c.s
+
 string/test_string_.obj: string/test_string_.c.obj
 .PHONY : string/test_string_.obj
 
@@ -553,6 +577,9 @@ help:
 	@echo ... string/tasks/reverseString.obj
 	@echo ... string/tasks/reverseString.i
 	@echo ... string/tasks/reverseString.s
+	@echo ... string/tasks/wordsMadeOfIdenticalLetters.obj
+	@echo ... string/tasks/wordsMadeOfIdenticalLetters.i
+	@echo ... string/tasks/wordsMadeOfIdenticalLetters.s
 	@echo ... string/test_string_.obj
 	@echo ... string/test_string_.i
 	@echo ... string/test_string_.s

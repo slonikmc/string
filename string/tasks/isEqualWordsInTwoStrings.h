@@ -7,8 +7,8 @@
 
 #include "../string_.h"
 
-bool isEqualWordsInTwoStrings(char *s1, char *s2);
+bool isEqualWordsInString(char *s);
 
-void test_isEqualWordsInTwoStrings();
+void test_isEqualWordsInString();
 
 #endif //INC_5E_STRING_ISEQUALWORDSINTWOSTRINGS_H

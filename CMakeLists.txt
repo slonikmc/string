@@ -19,6 +19,7 @@ add_library(str string/string_.h string/string_.c
          string/tasks/getWordBeforeFirstWordWithA.h string/tasks/getWordBeforeFirstWordWithA.c #task 11
          string/tasks/getLastInString1FromString2.h string/tasks/getLastInString1FromString2.c #task 12
          string/tasks/isEqualWordsInTwoStrings.h string/tasks/isEqualWordsInTwoStrings.c       #task 13
+         string/tasks/wordsMadeOfIdenticalLetters.h string/tasks/wordsMadeOfIdenticalLetters.c #task 14
         )
 
 target_link_libraries(5e_string str)

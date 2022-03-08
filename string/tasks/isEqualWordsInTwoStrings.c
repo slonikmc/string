@@ -5,43 +5,38 @@
 #include "isEqualWordsInTwoStrings.h"
 #include "assert.h"
 
-bool isEqualWordsInTwoStrings(char *s1, char *s2) {
-    getBagOfWords(&_bag, s1);
-    getBagOfWords(&_bag2, s2);
-    for (int i = _bag.size - 1; i >= 0; i--)
-        for (int j = _bag2.size - 1; j >= 0; j--)
-            if (areWordsEqual(_bag.words[i], _bag2.words[j]) == 0)
+bool isEqualWordsInString(char *s) {
+    getBagOfWords(&_bag, s);
+    for (int i = 0; i < _bag.size; i++)
+        for (int j = i + 1; j < _bag.size; j++)
+            if (areWordsEqual(_bag.words[i], _bag.words[j]) == 0)
                 return true;
     return false;
 }
 
-void test_isEqualWordsInTwoStrings_emptyStrings() {
-    char s1[] = "";
-    char s2[] = "";
-    assert(isEqualWordsInTwoStrings(s1, s2) == false);
+void test_isEqualWordsInString_emptyString() {
+    char s[] = "";
+    assert(isEqualWordsInString(s) == false);
 }
 
-void test_isEqualWordsInTwoStrings_onlySpaces() {
-    char s1[] = "              ";
-    char s2[] = "      ";
-    assert(isEqualWordsInTwoStrings(s1, s2) == false);
+void test_isEqualWordsInString_onlySpaces() {
+    char s[] = "              ";
+    assert(isEqualWordsInString(s) == false);
 }
 
-void test_isEqualWordsInTwoStrings_haveSameWords() {
-    char s1[] = "Hello Hello World Hello";
-    char s2[] = "Fish Potato Hello Hi hello";
-    assert(isEqualWordsInTwoStrings(s1, s2) == true);
+void test_isEqualWordsInString_haveSameWords() {
+    char s[] = "Hello Hihi World Hello";
+    assert(isEqualWordsInString(s) == true);
 }
 
-void test_isEqualWordsInTwoStrings_dontHaveSameWords() {
-    char s1[] = "Hello Hello World Hello";
-    char s2[] = "Fish Potato itsCanBeHelloButNot Hi";
-    assert(isEqualWordsInTwoStrings(s1, s2) == false);
+void test_isEqualWordsInString_dontHaveSameWords() {
+    char s[] = "Hello Hi Bonjur Privet";
+    assert(isEqualWordsInString(s) == false);
 }
 
-void test_isEqualWordsInTwoStrings() {
-    test_isEqualWordsInTwoStrings_emptyStrings();
-    test_isEqualWordsInTwoStrings_onlySpaces();
-    test_isEqualWordsInTwoStrings_dontHaveSameWords();
-    test_isEqualWordsInTwoStrings_haveSameWords();
+void test_isEqualWordsInString() {
+    test_isEqualWordsInString_emptyString();
+    test_isEqualWordsInString_onlySpaces();
+    test_isEqualWordsInString_dontHaveSameWords();
+    test_isEqualWordsInString_haveSameWords();
 }

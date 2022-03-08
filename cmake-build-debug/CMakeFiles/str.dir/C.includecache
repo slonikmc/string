@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Akelk/CLionProjects/5e string/string/string_.c
+string_.h
+C:/Users/Akelk/CLionProjects/5e string/string/string_.h
+stdio.h
+-
+string.h
+-
+stdbool.h
+-
+
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 stdio.h
 -
@@ -13,12 +23,4 @@ ctype.h
 -
 stdbool.h
 -
-
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastInString1FromString2.c
-getLastInString1FromString2.h
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastInString1FromString2.h
-
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastInString1FromString2.h
-../string_.h
-C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 

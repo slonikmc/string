@@ -52,6 +52,11 @@ CMakeFiles/str.dir/string/tasks/reverseString.c.obj: \
  ../string/string_.h \
  ../string/tasks/reverseString.c \
  ../string/tasks/reverseString.h
+CMakeFiles/str.dir/string/tasks/wordsMadeOfIdenticalLetters.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/isEqualWordsInTwoStrings.h \
+ ../string/tasks/wordsMadeOfIdenticalLetters.c \
+ ../string/tasks/wordsMadeOfIdenticalLetters.h
 CMakeFiles/str.dir/string/test_string_.c.obj: \
  ../string/string_.h \
  ../string/test_string_.c \
