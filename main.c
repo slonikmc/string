@@ -14,6 +14,7 @@
 #include "string/tasks/getLastWordFromS1EqualS2.h"
 #include "string/tasks/deletePalindromeWords.h"
 #include "string/tasks/addLastWordsS2ToS1.h"
+#include "string/tasks/isAllAlphasOfWordInString.h"
 
 int main() {
     test_removeNonLetters();
@@ -32,6 +33,7 @@ int main() {
     test_getLastWordFromS1EqualS2();
     test_deletePalindromeWords();
     test_addLastWordsS2ToS1();
+    test_isAllAlphasOfWordInString();
 
     return 0;
 }

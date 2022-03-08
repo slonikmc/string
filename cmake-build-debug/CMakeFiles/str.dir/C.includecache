@@ -14,11 +14,13 @@ ctype.h
 stdbool.h
 -
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/addLastWordsS2ToS1.c
-addLastWordsS2ToS1.h
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/addLastWordsS2ToS1.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/isAllAlphasOfWordInString.c
+isAllAlphasOfWordInString.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/isAllAlphasOfWordInString.h
+assert.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/assert.h
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/addLastWordsS2ToS1.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/isAllAlphasOfWordInString.h
 ../string_.h
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 

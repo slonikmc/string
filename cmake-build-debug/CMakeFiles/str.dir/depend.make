@@ -36,6 +36,10 @@ CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.obj: \
  ../string/string_.h \
  ../string/tasks/getWordBeforeFirstWordWithA.c \
  ../string/tasks/getWordBeforeFirstWordWithA.h
+CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/isAllAlphasOfWordInString.c \
+ ../string/tasks/isAllAlphasOfWordInString.h
 CMakeFiles/str.dir/string/tasks/isEqualWordsInTwoStrings.c.obj: \
  ../string/string_.h \
  ../string/tasks/isEqualWordsInTwoStrings.c \

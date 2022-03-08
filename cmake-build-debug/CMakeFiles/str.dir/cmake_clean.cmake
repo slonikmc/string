@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.obj"
   "CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj"
   "CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.obj"
+  "CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.obj"
   "CMakeFiles/str.dir/string/tasks/isEqualWordsInTwoStrings.c.obj"
   "CMakeFiles/str.dir/string/tasks/isLexicallyOrderedSentence.c.obj"
   "CMakeFiles/str.dir/string/tasks/nOfPalindromeWords.c.obj"

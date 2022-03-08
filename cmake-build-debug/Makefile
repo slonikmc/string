@@ -381,6 +381,30 @@ string/tasks/getWordBeforeFirstWordWithA.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.s
 .PHONY : string/tasks/getWordBeforeFirstWordWithA.c.s
 
+string/tasks/isAllAlphasOfWordInString.obj: string/tasks/isAllAlphasOfWordInString.c.obj
+.PHONY : string/tasks/isAllAlphasOfWordInString.obj
+
+# target to build an object file
+string/tasks/isAllAlphasOfWordInString.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.obj
+.PHONY : string/tasks/isAllAlphasOfWordInString.c.obj
+
+string/tasks/isAllAlphasOfWordInString.i: string/tasks/isAllAlphasOfWordInString.c.i
+.PHONY : string/tasks/isAllAlphasOfWordInString.i
+
+# target to preprocess a source file
+string/tasks/isAllAlphasOfWordInString.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.i
+.PHONY : string/tasks/isAllAlphasOfWordInString.c.i
+
+string/tasks/isAllAlphasOfWordInString.s: string/tasks/isAllAlphasOfWordInString.c.s
+.PHONY : string/tasks/isAllAlphasOfWordInString.s
+
+# target to generate assembly for a file
+string/tasks/isAllAlphasOfWordInString.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.s
+.PHONY : string/tasks/isAllAlphasOfWordInString.c.s
+
 string/tasks/isEqualWordsInTwoStrings.obj: string/tasks/isEqualWordsInTwoStrings.c.obj
 .PHONY : string/tasks/isEqualWordsInTwoStrings.obj
 
@@ -661,6 +685,9 @@ help:
 	@echo ... string/tasks/getWordBeforeFirstWordWithA.obj
 	@echo ... string/tasks/getWordBeforeFirstWordWithA.i
 	@echo ... string/tasks/getWordBeforeFirstWordWithA.s
+	@echo ... string/tasks/isAllAlphasOfWordInString.obj
+	@echo ... string/tasks/isAllAlphasOfWordInString.i
+	@echo ... string/tasks/isAllAlphasOfWordInString.s
 	@echo ... string/tasks/isEqualWordsInTwoStrings.obj
 	@echo ... string/tasks/isEqualWordsInTwoStrings.i
 	@echo ... string/tasks/isEqualWordsInTwoStrings.s

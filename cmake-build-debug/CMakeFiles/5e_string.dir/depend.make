@@ -12,6 +12,7 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../string/tasks/getLastWordFromS1EqualS2.h \
  ../string/tasks/getStringWithoutLastWord.h \
  ../string/tasks/getWordBeforeFirstWordWithA.h \
+ ../string/tasks/isAllAlphasOfWordInString.h \
  ../string/tasks/isEqualWordsInTwoStrings.h \
  ../string/tasks/isLexicallyOrderedSentence.h \
  ../string/tasks/nOfPalindromeWords.h \

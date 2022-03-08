@@ -312,6 +312,19 @@ CMakeFiles/str.dir/string/tasks/addLastWordsS2ToS1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/addLastWordsS2ToS1.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\addLastWordsS2ToS1.c" -o CMakeFiles\str.dir\string\tasks\addLastWordsS2ToS1.c.s
 
+CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.obj: CMakeFiles/str.dir/flags.make
+CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.obj: ../string/tasks/isAllAlphasOfWordInString.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\str.dir\string\tasks\isAllAlphasOfWordInString.c.obj -c "C:\Users\Akelk\CLionProjects\5e string\string\tasks\isAllAlphasOfWordInString.c"
+
+CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Akelk\CLionProjects\5e string\string\tasks\isAllAlphasOfWordInString.c" > CMakeFiles\str.dir\string\tasks\isAllAlphasOfWordInString.c.i
+
+CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\isAllAlphasOfWordInString.c" -o CMakeFiles\str.dir\string\tasks\isAllAlphasOfWordInString.c.s
+
 # Object files for target str
 str_OBJECTS = \
 "CMakeFiles/str.dir/string/string_.c.obj" \
@@ -332,7 +345,8 @@ str_OBJECTS = \
 "CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj" \
 "CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.obj" \
 "CMakeFiles/str.dir/string/tasks/deletePalindromeWords.c.obj" \
-"CMakeFiles/str.dir/string/tasks/addLastWordsS2ToS1.c.obj"
+"CMakeFiles/str.dir/string/tasks/addLastWordsS2ToS1.c.obj" \
+"CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.obj"
 
 # External object files for target str
 str_EXTERNAL_OBJECTS =
@@ -356,9 +370,10 @@ libstr.a: CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/deletePalindromeWords.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/addLastWordsS2ToS1.c.obj
+libstr.a: CMakeFiles/str.dir/string/tasks/isAllAlphasOfWordInString.c.obj
 libstr.a: CMakeFiles/str.dir/build.make
 libstr.a: CMakeFiles/str.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking C static library libstr.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking C static library libstr.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\str.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\str.dir\link.txt --verbose=$(VERBOSE)
 
