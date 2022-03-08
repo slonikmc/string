@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj"
   "CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj"
   "CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.obj"
+  "CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.obj"
   "CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj"
   "CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.obj"
   "CMakeFiles/str.dir/string/tasks/isEqualWordsInTwoStrings.c.obj"

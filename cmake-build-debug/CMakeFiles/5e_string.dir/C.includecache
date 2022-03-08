@@ -33,6 +33,8 @@ string/tasks/wordsMadeOfIdenticalLetters.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/wordsMadeOfIdenticalLetters.h
 string/tasks/getStringWithoutLastWord.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/getStringWithoutLastWord.h
+string/tasks/getLastWordFromS1EqualS2.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastWordFromS1EqualS2.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 stdio.h
@@ -49,6 +51,10 @@ C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastInString1FromString2.h
+../string_.h
+C:/Users/Akelk/CLionProjects/5e string/string/string_.h
+
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastWordFromS1EqualS2.h
 ../string_.h
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 

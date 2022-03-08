@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/alternatingWordsSentence.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/digitsToEnd.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastInString1FromString2.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.obj"
+  "C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastWordFromS1EqualS2.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/getStringWithoutLastWord.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/getWordBeforeFirstWordWithA.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.obj"
   "C:/Users/Akelk/CLionProjects/5e string/string/tasks/isEqualWordsInTwoStrings.c" "C:/Users/Akelk/CLionProjects/5e string/cmake-build-debug/CMakeFiles/str.dir/string/tasks/isEqualWordsInTwoStrings.c.obj"

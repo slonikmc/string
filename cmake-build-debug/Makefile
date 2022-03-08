@@ -261,6 +261,30 @@ string/tasks/getLastInString1FromString2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.s
 .PHONY : string/tasks/getLastInString1FromString2.c.s
 
+string/tasks/getLastWordFromS1EqualS2.obj: string/tasks/getLastWordFromS1EqualS2.c.obj
+.PHONY : string/tasks/getLastWordFromS1EqualS2.obj
+
+# target to build an object file
+string/tasks/getLastWordFromS1EqualS2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.obj
+.PHONY : string/tasks/getLastWordFromS1EqualS2.c.obj
+
+string/tasks/getLastWordFromS1EqualS2.i: string/tasks/getLastWordFromS1EqualS2.c.i
+.PHONY : string/tasks/getLastWordFromS1EqualS2.i
+
+# target to preprocess a source file
+string/tasks/getLastWordFromS1EqualS2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.i
+.PHONY : string/tasks/getLastWordFromS1EqualS2.c.i
+
+string/tasks/getLastWordFromS1EqualS2.s: string/tasks/getLastWordFromS1EqualS2.c.s
+.PHONY : string/tasks/getLastWordFromS1EqualS2.s
+
+# target to generate assembly for a file
+string/tasks/getLastWordFromS1EqualS2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.s
+.PHONY : string/tasks/getLastWordFromS1EqualS2.c.s
+
 string/tasks/getStringWithoutLastWord.obj: string/tasks/getStringWithoutLastWord.c.obj
 .PHONY : string/tasks/getStringWithoutLastWord.obj
 
@@ -574,6 +598,9 @@ help:
 	@echo ... string/tasks/getLastInString1FromString2.obj
 	@echo ... string/tasks/getLastInString1FromString2.i
 	@echo ... string/tasks/getLastInString1FromString2.s
+	@echo ... string/tasks/getLastWordFromS1EqualS2.obj
+	@echo ... string/tasks/getLastWordFromS1EqualS2.i
+	@echo ... string/tasks/getLastWordFromS1EqualS2.s
 	@echo ... string/tasks/getStringWithoutLastWord.obj
 	@echo ... string/tasks/getStringWithoutLastWord.i
 	@echo ... string/tasks/getStringWithoutLastWord.s

@@ -16,6 +16,10 @@ CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.obj: \
  ../string/string_.h \
  ../string/tasks/getLastInString1FromString2.c \
  ../string/tasks/getLastInString1FromString2.h
+CMakeFiles/str.dir/string/tasks/getLastWordFromS1EqualS2.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/getLastWordFromS1EqualS2.c \
+ ../string/tasks/getLastWordFromS1EqualS2.h
 CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj: \
  ../string/string_.h \
  ../string/tasks/getStringWithoutLastWord.c \
