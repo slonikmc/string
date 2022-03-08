@@ -4,6 +4,10 @@
 CMakeFiles/str.dir/string/string_.c.obj: \
  ../string/string_.c \
  ../string/string_.h
+CMakeFiles/str.dir/string/tasks/addLastWordsS2ToS1.c.obj: \
+ ../string/string_.h \
+ ../string/tasks/addLastWordsS2ToS1.c \
+ ../string/tasks/addLastWordsS2ToS1.h
 CMakeFiles/str.dir/string/tasks/alternatingWordsSentence.c.obj: \
  ../string/string_.h \
  ../string/tasks/alternatingWordsSentence.c \

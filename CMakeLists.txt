@@ -23,6 +23,7 @@ add_library(str string/string_.h string/string_.c
          string/tasks/getStringWithoutLastWord.h string/tasks/getStringWithoutLastWord.c       #task 15
          string/tasks/getLastInString1FromString2.h string/tasks/getLastWordFromS1EqualS2.c    #task 16
          string/tasks/deletePalindromeWords.h string/tasks/deletePalindromeWords.c             #task 17
+         string/tasks/addLastWordsS2ToS1.h string/tasks/addLastWordsS2ToS1.c                   #task 18
         )
 
 target_link_libraries(5e_string str)

@@ -4,6 +4,7 @@
 CMakeFiles/5e_string.dir/main.c.obj: \
  ../main.c \
  ../string/string_.h \
+ ../string/tasks/addLastWordsS2ToS1.h \
  ../string/tasks/alternatingWordsSentence.h \
  ../string/tasks/deletePalindromeWords.h \
  ../string/tasks/digitsToEnd.h \

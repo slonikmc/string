@@ -13,6 +13,7 @@
 #include "string/tasks/getStringWithoutLastWord.h"
 #include "string/tasks/getLastWordFromS1EqualS2.h"
 #include "string/tasks/deletePalindromeWords.h"
+#include "string/tasks/addLastWordsS2ToS1.h"
 
 int main() {
     test_removeNonLetters();
@@ -30,6 +31,7 @@ int main() {
     test_getStringWithoutLastWord();
     test_getLastWordFromS1EqualS2();
     test_deletePalindromeWords();
+    test_addLastWordsS2ToS1();
 
     return 0;
 }

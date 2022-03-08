@@ -119,6 +119,12 @@
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/string_.h">
 			<Option target="str"/>
 		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/addLastWordsS2ToS1.c">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/addLastWordsS2ToS1.h">
+			<Option target="str"/>
+		</Unit>
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/alternatingWordsSentence.c">
 			<Option target="str"/>
 		</Unit>

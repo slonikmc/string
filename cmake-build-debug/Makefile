@@ -189,6 +189,30 @@ string/string_.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/string_.c.s
 .PHONY : string/string_.c.s
 
+string/tasks/addLastWordsS2ToS1.obj: string/tasks/addLastWordsS2ToS1.c.obj
+.PHONY : string/tasks/addLastWordsS2ToS1.obj
+
+# target to build an object file
+string/tasks/addLastWordsS2ToS1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/addLastWordsS2ToS1.c.obj
+.PHONY : string/tasks/addLastWordsS2ToS1.c.obj
+
+string/tasks/addLastWordsS2ToS1.i: string/tasks/addLastWordsS2ToS1.c.i
+.PHONY : string/tasks/addLastWordsS2ToS1.i
+
+# target to preprocess a source file
+string/tasks/addLastWordsS2ToS1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/addLastWordsS2ToS1.c.i
+.PHONY : string/tasks/addLastWordsS2ToS1.c.i
+
+string/tasks/addLastWordsS2ToS1.s: string/tasks/addLastWordsS2ToS1.c.s
+.PHONY : string/tasks/addLastWordsS2ToS1.s
+
+# target to generate assembly for a file
+string/tasks/addLastWordsS2ToS1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/addLastWordsS2ToS1.c.s
+.PHONY : string/tasks/addLastWordsS2ToS1.c.s
+
 string/tasks/alternatingWordsSentence.obj: string/tasks/alternatingWordsSentence.c.obj
 .PHONY : string/tasks/alternatingWordsSentence.obj
 
@@ -613,6 +637,9 @@ help:
 	@echo ... string/string_.obj
 	@echo ... string/string_.i
 	@echo ... string/string_.s
+	@echo ... string/tasks/addLastWordsS2ToS1.obj
+	@echo ... string/tasks/addLastWordsS2ToS1.i
+	@echo ... string/tasks/addLastWordsS2ToS1.s
 	@echo ... string/tasks/alternatingWordsSentence.obj
 	@echo ... string/tasks/alternatingWordsSentence.i
 	@echo ... string/tasks/alternatingWordsSentence.s
