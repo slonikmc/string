@@ -15,6 +15,8 @@ string/tasks/digitsToEnd.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/digitsToEnd.h
 string/tasks/numberTurnIntoSpaces.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.h
+string/tasks/replace.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/replace.h
 string/tasks/nOfPalindromeWords.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/nOfPalindromeWords.h
 string/tasks/isLexicallyOrderedSentence.h
@@ -99,6 +101,8 @@ C:/Users/Akelk/CLionProjects/5e string/string/tasks/numberTurnIntoSpaces.h
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeExtraSpaces.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/removeNonLetters.h
+
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/replace.h
 
 C:/Users/Akelk/CLionProjects/5e string/string/tasks/reverseString.h
 ../string_.h

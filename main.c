@@ -2,6 +2,7 @@
 #include "string/tasks/removeExtraSpaces.h"
 #include "string/tasks/digitsToEnd.h"
 #include "string/tasks/numberTurnIntoSpaces.h"
+#include "string/tasks/replace.h"
 #include "string/tasks/nOfPalindromeWords.h"
 #include "string/tasks/isLexicallyOrderedSentence.h"
 #include "string/tasks/alternatingWordsSentence.h"
@@ -21,10 +22,11 @@ int main() {
     test_removeExtraSpaces();
     test_redactStringCriteria();
     test_numberTurnIntoSpaces();
+   // test_replace();
     test_nOfPalindromeWords();
     test_isLexicallyOrderedSentence();
     test_alternatingWordsSentence();
-    //test_reverseString();
+   // test_reverseString();
     testAll_getWordBeforeFirstWordWithA();
     test_getLastInString1FromString2();
     test_isEqualWordsInString();

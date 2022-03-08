@@ -5,16 +5,20 @@
 #include "reverseString.h"
 
 void reverseString(char *s) {
-    char *endBuffer = copy(s, getEndOfString(s), _stringBuffer);
     WordDescriptor word;
+    if (getWord(s, &word) == 0)
+        return;
+    char *endBuffer = copy(s, getEndOfString(s), _stringBuffer);
+    char *copyS = s;
     while (getWordReverse(endBuffer - 1, _stringBuffer - 1, &word)) {
-        s = copy(word.begin, word.end, s);
-        *s = ' ';
-        s++;
-        endBuffer = findNonSpaceReverse(endBuffer - 1, _stringBuffer - 1);
+        copyS = copy(word.begin, word.end, copyS);
+        *copyS = ' ';
+        copyS++;
+        *endBuffer = word.begin;
     }
-    s--;
-    *s = '\0';
+    if (copyS != s)
+        copyS--;
+    *copyS = '\0';
 }
 
 void test_reverseString_emptyString() {
@@ -26,7 +30,7 @@ void test_reverseString_emptyString() {
 void test_reverseString_onlySpaces() {
     char s[] = "    ";
     reverseString(s);
-    ASSERT_STRING("", s);
+    ASSERT_STRING("    ", s);
 }
 
 void test_reverseString_commonCase() {

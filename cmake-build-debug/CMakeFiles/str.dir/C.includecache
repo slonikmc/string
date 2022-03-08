@@ -14,13 +14,11 @@ ctype.h
 stdbool.h
 -
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/isAllAlphasOfWordInString.c
-isAllAlphasOfWordInString.h
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/isAllAlphasOfWordInString.h
-assert.h
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/assert.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/reverseString.c
+reverseString.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/reverseString.h
 
-C:/Users/Akelk/CLionProjects/5e string/string/tasks/isAllAlphasOfWordInString.h
+C:/Users/Akelk/CLionProjects/5e string/string/tasks/reverseString.h
 ../string_.h
 C:/Users/Akelk/CLionProjects/5e string/string/string_.h
 

@@ -19,5 +19,6 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../string/tasks/numberTurnIntoSpaces.h \
  ../string/tasks/removeExtraSpaces.h \
  ../string/tasks/removeNonLetters.h \
+ ../string/tasks/replace.h \
  ../string/tasks/reverseString.h \
  ../string/tasks/wordsMadeOfIdenticalLetters.h
