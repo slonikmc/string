@@ -135,7 +135,7 @@ int areWordsEqual(WordDescriptor w1, WordDescriptor w2) {
         begin2++;
     }
 
-    return *begin1 - *begin2;
+    return *begin1  - *begin2;
 }
 
 void getBagOfWords(BagOfWords *bag, char *s) {

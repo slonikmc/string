@@ -260,6 +260,19 @@ CMakeFiles/str.dir/string/tasks/wordsMadeOfIdenticalLetters.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/wordsMadeOfIdenticalLetters.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\wordsMadeOfIdenticalLetters.c" -o CMakeFiles\str.dir\string\tasks\wordsMadeOfIdenticalLetters.c.s
 
+CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj: CMakeFiles/str.dir/flags.make
+CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj: ../string/tasks/getStringWithoutLastWord.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\str.dir\string\tasks\getStringWithoutLastWord.c.obj -c "C:\Users\Akelk\CLionProjects\5e string\string\tasks\getStringWithoutLastWord.c"
+
+CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Akelk\CLionProjects\5e string\string\tasks\getStringWithoutLastWord.c" > CMakeFiles\str.dir\string\tasks\getStringWithoutLastWord.c.i
+
+CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Akelk\CLionProjects\5e string\string\tasks\getStringWithoutLastWord.c" -o CMakeFiles\str.dir\string\tasks\getStringWithoutLastWord.c.s
+
 # Object files for target str
 str_OBJECTS = \
 "CMakeFiles/str.dir/string/string_.c.obj" \
@@ -276,7 +289,8 @@ str_OBJECTS = \
 "CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.obj" \
 "CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.obj" \
 "CMakeFiles/str.dir/string/tasks/isEqualWordsInTwoStrings.c.obj" \
-"CMakeFiles/str.dir/string/tasks/wordsMadeOfIdenticalLetters.c.obj"
+"CMakeFiles/str.dir/string/tasks/wordsMadeOfIdenticalLetters.c.obj" \
+"CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj"
 
 # External object files for target str
 str_EXTERNAL_OBJECTS =
@@ -296,9 +310,10 @@ libstr.a: CMakeFiles/str.dir/string/tasks/getWordBeforeFirstWordWithA.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/isEqualWordsInTwoStrings.c.obj
 libstr.a: CMakeFiles/str.dir/string/tasks/wordsMadeOfIdenticalLetters.c.obj
+libstr.a: CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj
 libstr.a: CMakeFiles/str.dir/build.make
 libstr.a: CMakeFiles/str.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library libstr.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Akelk\CLionProjects\5e string\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking C static library libstr.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\str.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\str.dir\link.txt --verbose=$(VERBOSE)
 

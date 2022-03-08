@@ -10,6 +10,7 @@
 #include "string/tasks/getLastInString1FromString2.h"
 #include "string/tasks/isEqualWordsInTwoStrings.h"
 #include "string/tasks/wordsMadeOfIdenticalLetters.h"
+#include "string/tasks/getStringWithoutLastWord.h"
 
 int main() {
     test_removeNonLetters();
@@ -24,6 +25,7 @@ int main() {
     test_getLastInString1FromString2();
     test_isEqualWordsInString();
     test_wordsMadeOfIdenticalLetters();
+    test_getStringWithoutLastWord();
 
     return 0;
 }

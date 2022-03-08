@@ -261,6 +261,30 @@ string/tasks/getLastInString1FromString2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getLastInString1FromString2.c.s
 .PHONY : string/tasks/getLastInString1FromString2.c.s
 
+string/tasks/getStringWithoutLastWord.obj: string/tasks/getStringWithoutLastWord.c.obj
+.PHONY : string/tasks/getStringWithoutLastWord.obj
+
+# target to build an object file
+string/tasks/getStringWithoutLastWord.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.obj
+.PHONY : string/tasks/getStringWithoutLastWord.c.obj
+
+string/tasks/getStringWithoutLastWord.i: string/tasks/getStringWithoutLastWord.c.i
+.PHONY : string/tasks/getStringWithoutLastWord.i
+
+# target to preprocess a source file
+string/tasks/getStringWithoutLastWord.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.i
+.PHONY : string/tasks/getStringWithoutLastWord.c.i
+
+string/tasks/getStringWithoutLastWord.s: string/tasks/getStringWithoutLastWord.c.s
+.PHONY : string/tasks/getStringWithoutLastWord.s
+
+# target to generate assembly for a file
+string/tasks/getStringWithoutLastWord.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\str.dir\build.make CMakeFiles/str.dir/string/tasks/getStringWithoutLastWord.c.s
+.PHONY : string/tasks/getStringWithoutLastWord.c.s
+
 string/tasks/getWordBeforeFirstWordWithA.obj: string/tasks/getWordBeforeFirstWordWithA.c.obj
 .PHONY : string/tasks/getWordBeforeFirstWordWithA.obj
 
@@ -550,6 +574,9 @@ help:
 	@echo ... string/tasks/getLastInString1FromString2.obj
 	@echo ... string/tasks/getLastInString1FromString2.i
 	@echo ... string/tasks/getLastInString1FromString2.s
+	@echo ... string/tasks/getStringWithoutLastWord.obj
+	@echo ... string/tasks/getStringWithoutLastWord.i
+	@echo ... string/tasks/getStringWithoutLastWord.s
 	@echo ... string/tasks/getWordBeforeFirstWordWithA.obj
 	@echo ... string/tasks/getWordBeforeFirstWordWithA.i
 	@echo ... string/tasks/getWordBeforeFirstWordWithA.s

@@ -137,6 +137,12 @@
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/getLastInString1FromString2.h">
 			<Option target="str"/>
 		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/getStringWithoutLastWord.c">
+			<Option target="str"/>
+		</Unit>
+		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/getStringWithoutLastWord.h">
+			<Option target="str"/>
+		</Unit>
 		<Unit filename="C:/Users/Akelk/CLionProjects/5e string/string/tasks/getWordBeforeFirstWordWithA.c">
 			<Option target="str"/>
 		</Unit>

@@ -7,6 +7,7 @@ CMakeFiles/5e_string.dir/main.c.obj: \
  ../string/tasks/alternatingWordsSentence.h \
  ../string/tasks/digitsToEnd.h \
  ../string/tasks/getLastInString1FromString2.h \
+ ../string/tasks/getStringWithoutLastWord.h \
  ../string/tasks/getWordBeforeFirstWordWithA.h \
  ../string/tasks/isEqualWordsInTwoStrings.h \
  ../string/tasks/isLexicallyOrderedSentence.h \
